@@ -7,18 +7,16 @@
 На тестирование затрачено: <1 час>
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/Alexandra-Matyukhina/bank_cards/issues/4#issue-879509435
-* https://github.com/Alexandra-Matyukhina/bank_cards/issues/3#issue-879480330
-* https://github.com/Alexandra-Matyukhina/bank_cards/issues/2#issue-879418634
+* [15-значный формат номера карты не проходит валидацию](https://github.com/Alexandra-Matyukhina/bank_cards/issues/4#issue-879509435)
+* [14-значный формат номера карты не проходит валидацию](https://github.com/Alexandra-Matyukhina/bank_cards/issues/3#issue-879480330)
+* [19-значный формат номера карты не проходит валидацию](https://github.com/Alexandra-Matyukhina/bank_cards/issues/2#issue-879418634)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты*:
 * Баг-Репорты
-* Отчет о тестировании
 
-
-В качестве тестовых данных использовались данные https://www.freeformatter.com/credit-card-number-generator-validator.html:
+В качестве тестовых данных использовались данные с [Сайта -Генератор номера кредитных карт](https://www.freeformatter.com/credit-card-number-generator-validator.html):
 * VISA:
 4929529336278898 - Expected Result - Result is OK
 4716987144875296 - Expected Result - Result is OK
@@ -65,7 +63,7 @@
 6380402633845792 - Expected Result - Result is OK
 
 
-Тестирование производилось в следующем окружении:
+## Тестирование производилось в следующем окружении:
 * Устройство: Microsoft Surface Laptop 3
 * Windows 10
 * AdoptOpenJDK JDK with Hotspot 11.0.10+9 (x64)
