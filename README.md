@@ -14,7 +14,9 @@
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты*:
-* Баг-Репорты
+* Руководство по установке IntelliJ IDEA
+* Тестовые данные [Отсюда](https://www.freeformatter.com/credit-card-number-generator-validator.html)
+* Код программы (Java)
 
 В качестве тестовых данных использовались данные с [Сайта -Генератор номера кредитных карт](https://www.freeformatter.com/credit-card-number-generator-validator.html):
 * VISA:
